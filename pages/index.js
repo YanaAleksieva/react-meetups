@@ -39,6 +39,7 @@ export async function getStaticProps() {
     props: {
       meetups: DUMMY_MEETUPS,
     },
+    revalidate: 10, //number of sec next.js will wait until it regenerates this page for incoming request
   };
 }
 
