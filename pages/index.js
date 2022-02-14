@@ -43,4 +43,17 @@ export async function getStaticProps() {
   };
 }
 
+// runs on the server after deployment; func name can't be changed
+/*
+export async function getServerSideProps(context) {
+    const req = context.req;
+    const res = context.res;
+
+      // fetch data from an API
+    return {
+        props: DUMMY_MEETUPS,
+    };
+}
+*/
+
 export default HomePage;
