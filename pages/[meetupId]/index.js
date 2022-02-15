@@ -1,6 +1,5 @@
 // our-domain.com/[meetupId]
 
-import { Fragment } from "react";
 import MeetupDetail from "../../components/meetups/MeetupDetail";
 
 const MeetupDetails = () => {
